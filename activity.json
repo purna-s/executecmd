@@ -1,0 +1,22 @@
+{
+  "name": "executecmd",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/executecmd",
+  "version": "0.0.1",
+  "title": "Execute Command",
+  "description": "Execute Command Activity",
+  "homepage": "https://github.com/purna-s/executecmd",
+  "inputs":[
+    {
+      "name": "command",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
